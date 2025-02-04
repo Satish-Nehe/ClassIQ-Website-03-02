@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --comman-padding: 0 8vw;
+    --primary-text-color: #000;
+    --primary-brand-color: #c2f578;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: var(--comman-padding);
+    margin-top: 40px;
+}
+.header-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:100px;
+}
+.header-left a{
+    text-decoration: none;
+}
+.header-left .classIq{
+    display: flex;
+    align-items: center;
+    color:var(--primary-text-color);
+    font-size: 24px;
+    font-weight: 700;
+    gap:15px;
+}
+.header-left .courses{
+    color: var(--primary-text-color);
+    font-size: 18px;
+    color:#3e3e3e;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.header-right button{
+    display: flex;
+        border: none;
+        background-color: var(--primary-text-color);
+        color: white;
+        padding: 10px;
+        border-radius: 8px;
+        align-items: center;
+} 
+.sign-up-page{
+    display: flex;
+    justify-content: center;
+    /* width: 400px;    
+    height: 495px;
+    top: 260px;
+    left: 520px; */
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 400px;
+    margin-left: 40%;
+    margin-top: 8%;
+    background-color: #ecedef;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+}
+.sign-up-page legend{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+.sign-up-page #email{
+    padding: 10px;
+    width: 327px;
+    color: black;
+    font-weight: 800;
+    padding-left: 37px;
+    height: 47px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.sign-up-page #Fullname{
+    padding: 10px;
+    width: 327px;
+    height: 47px;
+    color: black;
+    font-weight: 800;
+    padding-left: 37px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+.sign-up-page #password{
+    padding: 10px;
+    width: 327px;
+    height: 47px;
+    color: black;
+    font-weight: 800;
+    padding-left: 37px;
+    border-radius: 8px; 
+    border: 2px solid black;
+}
+.sign-up-page button{
+    background-color: var(--primary-brand-color);
+    padding:10px;
+    width: 327px;
+    height: 47px;
+    border-radius: 8px; 
+    font-size: 15px;
+    color: black;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.sign-up-page p{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
